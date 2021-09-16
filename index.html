@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Author: SR,
     This is a native website built for SR">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div id="logo__services__container">
             <div id="logo">LOGO</div>
             <nav id="services">
@@ -18,7 +18,7 @@
                     <li>
                         <div class="services__blurb services__blurb__1">
                             <div class="blurb__icon">
-                                Icon
+                                <img src="img/family.png">
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
@@ -33,7 +33,7 @@
                     <li>
                         <div class="services__blurb services__blurb__2">
                             <div class="blurb__icon">
-                                Icon
+                                <img src="img/phone.png">
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
@@ -48,7 +48,7 @@
                     <li>
                         <div class="services__blurb services__blurb__3">
                             <div class="blurb__icon">
-                                Icon
+                                <img src="img/calender.png">
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
@@ -67,25 +67,25 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a class="active" href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a class="" href="#">Contact Us</a>
                     </li>
                     <li>
-                        <a href="#">Register</a>
+                        <a class="" href="#">Register</a>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <a class="" href="#">Login</a>
                     </li>
                     <li>
-                        <a href="#">Delivery Policy</a>
+                        <a class="" href="#">Delivery Policy</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div id="our__qualities">
             <div class="qualitie__one">
                 <div class="qualitie__icon">icon</div>
@@ -102,19 +102,23 @@
         </div>
         <div id="home__products">
             <div class="product__one">
-                <div class="product__thumbnail"></div>
-                <div class="product__subname"></div>
-                <div class="product__name"></div>
-                <div class="product__price"></div>
+                <div class="product__thumbnail">
+                    <img src="img/turf-300x300.jpg" alt="product-1" width="auto" height="auto">
+                </div>
+                <div class="product__subname">Turf</div>
+                <div class="product__name">Premium Fine Turfing</div>
+                <div class="product__price">£5.50</div>
                 <div class="product__addToCart">
                     <a href="#">Add to cart</a>
                 </div>
             </div>
             <div class="product__two">
-                <div class="product__thumbnail"></div>
-                <div class="product__subname"></div>
-                <div class="product__name"></div>
-                <div class="product__price"></div>
+                <div class="product__thumbnail">
+                    <img src="img/turf-300x300.jpg" alt="product-2" width="auto" height="auto">
+                </div>
+                <div class="product__subname">Turf</div>
+                <div class="product__name">Fine Turfing</div>
+                <div class="product__price">£2.79</div>
                 <div class="product__addToCart">
                     <a href="#">Add to cart</a>
                 </div>
@@ -123,21 +127,24 @@
 
         <div id="testimonials">
             <div class="testimonial__1">
-                <div class="testimonial__thumbnail"></div>
-                <div class="testimonial__name"></div>
-                <div class="testimonial__rating"></div>
-                <div class="testimonial__content"></div>
+                <div class="testimonial__thumbnail">testimonial__thumbnail</div>
+                <div class="testimonial__name">David Smith</div>
+                <div class="testimonial__rating">testimonial__rating</div>
+                <div class="testimonial__content">
+                    From start to finish and even beyond, my experience has been the best I have had when purchasing anything online. I selected the turf that I wanted (Premium Fine Turfing) and it was delivered the very next day. The driver couldn't have been more helpful,
+                    placing the pallet where it should be. The quality of the turf was excellent, couldn't be happier with how it looks. I would have given my experience 5 stars at this point but Fine Turfing Suppliers have taken my experience to the
+                    next level, contacting me with a courtesy follow up email to make sure everything was OK. I would definitely advised them to anyone. </div>
             </div>
         </div>
         <div id="awards">awards</div>
         <div id="plus__infos">
             <div class="did__you__know">
-                <div class="plus__caption"></div>
-                <div class="plus__description"></div>
+                <div class="plus__caption">plus__caption</div>
+                <div class="plus__description">plus__description</div>
             </div>
             <div class="contact__us">
-                <div class="plus__caption"></div>
-                <div class="plus__description"></div>
+                <div class="plus__caption">plus__caption</div>
+                <div class="plus__description">plus__description</div>
             </div>
         </div>
         <div class="home_parag">
@@ -149,7 +156,7 @@
             your project needs.
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <div id="pre__footer">
             Need help? Call our award-winning support team 24/7 at 07762 839285
         </div>
