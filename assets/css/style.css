@@ -1,4 +1,208 @@
+/*Font Import*/
+
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+/*Global Settings*/
+
 body {
     font-family: 'Sora', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Global CSS*/
+
+div#logo__services__container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav#services {
+    margin-left: auto;
+}
+
+#services ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav#menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav#menu ul>li:not(:last-child) {
+    margin-right: 40px;
+}
+
+section#our__qualities>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+section#our__qualities>div>div {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: red;
+}
+
+section#our__qualities>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+section#our__qualities>div>div {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: red;
+}
+
+section#home__products>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+section#home__products>div>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: red;
+}
+
+section#testimonials>div {
+    max-width: 80%;
+    margin: auto;
+}
+
+section#testimonials>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: red;
+}
+
+section#plus__infos>div>div {
+    background: red;
+}
+
+section.home_parag>div {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.did__you__know {}
+
+section#plus__infos>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+section#plus__infos>div>div {
+    background: red;
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+}
+
+section.home_parag>div {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+div#pre__footer {
+    text-align: center;
+    margin: auto;
+    background: red;
+    padding: 20px;
+}
+
+div#footer__containeer>ul {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+
+div#footer__copyrights {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: red;
+}
+
+.footer__copyright_links {
+    margin-left: auto;
+}
+
+.footer__copyright_links>ul {
+    display: flex;
+}
+
+div#footer__containeer>ul>li {
+    background: red;
+}
+
+nav#services .services__blurb {
+    display: flex;
+    align-items: center;
+}
+
+nav#services .services__blurb .blurb__icon {
+    margin-right: 20px;
+}
+
+div#footer__containeer {
+    margin: 10px 0;
+}
+
+section#home__slider>div {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#home__slider {
+    min-height: 500px;
+    background: red;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Author: SR,
     This is a native website built for SR">
+    <!-- Global -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/0a23cc7eaa.js" crossorigin="anonymous" defer></script>
+    <!-- Owl Carrousel -->
+    <link rel="preload" rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="preload" rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+
 </head>
 
 <body>
@@ -18,7 +29,7 @@
                     <li>
                         <div class="services__blurb services__blurb__1">
                             <div class="blurb__icon">
-                                Icon
+                                <i class="fas fa-users"></i>
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
@@ -33,14 +44,14 @@
                     <li>
                         <div class="services__blurb services__blurb__2">
                             <div class="blurb__icon">
-                                Icon
+                                <i class="fas fa-headset"></i>
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
-                                    Family Run Bussiness
+                                    <a href="tel:07762 839285">07762 839285</a>
                                 </div>
                                 <div class="blurb__sub__caption">
-                                    Free Delivery All Uk
+                                    24/7 Customer Support
                                 </div>
                             </div>
                         </div>
@@ -48,14 +59,14 @@
                     <li>
                         <div class="services__blurb services__blurb__3">
                             <div class="blurb__icon">
-                                Icon
+                                <i class="far fa-calendar-alt"></i>
                             </div>
                             <div class="blurb__description">
                                 <div class="blurb__caption">
-                                    Family Run Bussiness
+                                    Mon - Sat: 8:00 - 17:30
                                 </div>
                                 <div class="blurb__sub__caption">
-                                    Free Delivery All Uk
+                                    Online store always open
                                 </div>
                             </div>
                         </div>
@@ -86,68 +97,83 @@
         </div>
     </header>
     <main>
-        <div id="our__qualities">
-            <div class="qualitie__one">
-                <div class="qualitie__icon">icon</div>
-                <div class="qualitie__description">description</div>
-            </div>
-            <div class="qualitie__two">
-                <div class="qualitie__icon">icon</div>
-                <div class="qualitie__description">description</div>
-            </div>
-        </div>
-        <div id="home__slider">
-            <h1>Turfing Supplier</h1>
-            <div class="slider__description">As a premier turf delivery service and supplier, we can offer you everything your project needs.</div>
-        </div>
-        <div id="home__products">
-            <div class="product__one">
-                <div class="product__thumbnail"></div>
-                <div class="product__subname"></div>
-                <div class="product__name"></div>
-                <div class="product__price"></div>
-                <div class="product__addToCart">
-                    <a href="#">Add to cart</a>
+        <section id="our__qualities">
+            <div>
+                <div class="qualitie__one">
+                    <div class="qualitie__icon"><i class="fas fa-truck-loading"></i></div>
+                    <div class="qualitie__description">description</div>
+                </div>
+                <div class="qualitie__two">
+                    <div class="qualitie__icon"><i class="fas fa-certificate"></i></div>
+                    <div class="qualitie__description">description</div>
                 </div>
             </div>
-            <div class="product__two">
-                <div class="product__thumbnail"></div>
-                <div class="product__subname"></div>
-                <div class="product__name"></div>
-                <div class="product__price"></div>
-                <div class="product__addToCart">
-                    <a href="#">Add to cart</a>
+        </section>
+        <section id="home__slider">
+            <div>
+                <h1>Turfing Supplier</h1>
+                <div class="slider__description">As a premier turf delivery service and supplier, we can offer you everything your project needs.</div>
+            </div>
+        </section>
+        <section id="home__products">
+            <div>
+                <div class="product__one">
+                    <div class="product__thumbnail">
+                        <img src="/assets/img/turf-300x300.jpg" alt="product1" width="300" height="300">
+                    </div>
+                    <div class="product__subname">Turf</div>
+                    <div class="product__name">Premium Fine Turfing</div>
+                    <div class="product__price">£5.50</div>
+                    <div class="product__addToCart">
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="product__two">
+                    <div class="product__thumbnail">
+                        <img src="/assets/img/turf-300x300.jpg" alt="product2" width="300" height="300">
+                    </div>
+                    <div class="product__subname">Turf</div>
+                    <div class="product__name">Premium Fine Turfing</div>
+                    <div class="product__price">£5.50</div>
+                    <div class="product__addToCart">
+                        <a href="#">Add to cart</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="testimonials">
-            <div class="testimonial__1">
-                <div class="testimonial__thumbnail"></div>
-                <div class="testimonial__name"></div>
-                <div class="testimonial__rating"></div>
-                <div class="testimonial__content"></div>
+        <section id="testimonials">
+            <div>
+                <div class="testimonial__1">
+                    <div class="testimonial__thumbnail"></div>
+                    <div class="testimonial__name">Jack Davies</div>
+                    <div class="testimonial__rating">5 etoiles</div>
+                    <div class="testimonial__content">The delivery was very quick, the driver very helpful. The turf was top quality, easy to lay. And the communication and advice from onlineturf has been top class. I would highly recommend the company.</div>
+                </div>
             </div>
-        </div>
-        <div id="awards">awards</div>
-        <div id="plus__infos">
-            <div class="did__you__know">
-                <div class="plus__caption"></div>
-                <div class="plus__description"></div>
+        </section>
+        <section id="plus__infos">
+            <div>
+                <div class="did__you__know">
+                    <div class="plus__caption">DID YOU KNOW?</div>
+                    <div class="plus__description">The grass is the third most important source of Oxygen behind trees and algae.</div>
+                </div>
+                <div class="contact__us">
+                    <div class="plus__caption">CONTACT US</div>
+                    <div class="plus__description">Struggling to find the right turf at the best and lowest prices? We may just have the perfect turfing for you at Fine Turfing Suppliers.</div>
+                </div>
             </div>
-            <div class="contact__us">
-                <div class="plus__caption"></div>
-                <div class="plus__description"></div>
+        </section>
+        <section class="home_parag">
+            <div>
+                We the Fine Turfing Suppliers company are the top UK turf suppliers. We focus on supplying high-quality turf grass and Rolawn that will give you a premium finish in your garden or at your commercial premises. We provide lawn mower services and installation.
+                Our online store offers an easy way to buy turfing grass and Rolawn turf, rest assure you will be receiving excellent value. By ordering turf online with Fine Turfing Suppliers, you can have the materials you need to be delivered directly
+                to your site. You can have now “turf near me”, “lawn turf near me” within minutes at your site. At the Fine Turfing Suppliers company, we ensure fresh turfing supply in the UK and the cost of installing lawn turf can be delivered the next
+                day at competitive prices in the UK. This means that when you buy turf online, you can be sure that your turfing project won’t be on hold. As top online turfing garden suppliers and turf, lawn delivery service, we offer a variety of grass
+                turf to suit any grass surface requirement. From the finest sports turf to the most hardwearing, and even a species-rich turf of pollinator-friendly flowers. As a premier turf delivery service and turf supplier, we can offer you everything
+                your project needs.
             </div>
-        </div>
-        <div class="home_parag">
-            We the Fine Turfing Suppliers company are the top UK turf suppliers. We focus on supplying high-quality turf grass and Rolawn that will give you a premium finish in your garden or at your commercial premises. We provide lawn mower services and installation.
-            Our online store offers an easy way to buy turfing grass and Rolawn turf, rest assure you will be receiving excellent value. By ordering turf online with Fine Turfing Suppliers, you can have the materials you need to be delivered directly
-            to your site. You can have now “turf near me”, “lawn turf near me” within minutes at your site. At the Fine Turfing Suppliers company, we ensure fresh turfing supply in the UK and the cost of installing lawn turf can be delivered the next
-            day at competitive prices in the UK. This means that when you buy turf online, you can be sure that your turfing project won’t be on hold. As top online turfing garden suppliers and turf, lawn delivery service, we offer a variety of grass
-            turf to suit any grass surface requirement. From the finest sports turf to the most hardwearing, and even a species-rich turf of pollinator-friendly flowers. As a premier turf delivery service and turf supplier, we can offer you everything
-            your project needs.
-        </div>
+        </section>
     </main>
     <footer>
         <div id="pre__footer">
@@ -187,38 +213,34 @@
         <div id="footer__copyrights">
             <div class="footer__copyright_content">© 2021 All rights reserved. Fine Turfing Suppliers ©</div>
             <div class="footer__copyright_links">
-                <ul>
+
+                <ul class="footer__copyright__2">
                     <li>
-                        <div class="footer__copyright__1">
-                            © 2021 All rights reserved. Fine Turfing Suppliers ©
-                        </div>
+                        <a href="#" target="_blank">twitter</a>
                     </li>
                     <li>
-                        <ul class="footer__copyright__2">
-                            <li>
-                                <a href="#" target="_blank">twitter</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">fb</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">Dribbble</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">youtube</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">pinterest</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">Medium</a>
-                            </li>
-                        </ul>
+                        <a href="#" target="_blank">fb</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Dribbble</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">youtube</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">pinterest</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">Medium</a>
                     </li>
                 </ul>
+
             </div>
         </div>
+        <!-- Main JS -->
         <script src="assets/js/main.js"></script>
+        <!-- Owl Carrousel -->
+        <script src="assets/js/owl.carousel.min.js" defer></script>
     </footer>
 </body>
 
